@@ -1,0 +1,9 @@
+# Editör / işletim sistemi dosyaları
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Node (ileride lazım olursa)
+node_modules/

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Efe · Kişisel Linklerim</title>
+    <meta name="description" content="Efe'nin kişisel linkleri, sosyal medya hesapları ve projeleri." />
+    <meta name="theme-color" content="#08060f" />
+
+    <!-- Sosyal medya paylaşım etiketleri (paylaşıldığında görünecek görsel) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Efe · Kişisel Linklerim" />
+    <meta property="og:description" content="Tüm linklerim, hesaplarım ve projelerim tek yerde." />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Favicon: harf M -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23a855f7'/%3E%3Cstop offset='.5' stop-color='%23ec4899'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='44' font-family='Segoe UI,Arial' font-size='36' font-weight='bold' fill='%23fff' text-anchor='middle'%3EE%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="bg" aria-hidden="true">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+    </div>
+
+    <main class="wrap">
+      <!-- ===== Profil ===== -->
+      <header class="profile">
+        <div class="avatar" id="avatar">E</div>
+        <h1 id="ad">Efe</h1>
+        <p class="unvan" id="unvan">Kişisel Linklerim</p>
+        <p class="bio" id="bio">Tüm hesaplarıma, projelerime ve yaptıklarıma ulaşabileceğin tüm bağlantılar burada.</p>
+      </header>
+
+      <!-- ===== Ana butonlar ===== -->
+      <div class="actions" id="actions"></div>
+
+      <!-- ===== Linkler ===== -->
+      <p class="bolum-baslik">Tüm hesaplarım</p>
+      <section class="links" id="links"></section>
+
+      <!-- ===== Alt sosyal ikonlar ===== -->
+      <nav class="sosyal" id="sosyal" aria-label="Sosyal medya"></nav>
+
+      <!-- ===== Bilgi satırı ===== -->
+      <div class="bilgi">
+        <button type="button" id="paylas">
+          <svg viewBox="0 0 24 24"><path d="M18 16.1a3 3 0 0 0-2 .8l-7.1-4.1a3 3 0 0 0 0-1.4L16 7.3a3 3 0 1 0-1-2 3 3 0 0 0 .1.7L8.1 10a3 3 0 1 0 0 4l7.1 4.1a3 3 0 1 0 2.8-2z"/></svg>
+          Bağlantıyı Paylaş
+        </button>
+        <button type="button" id="kopyala">
+          <svg viewBox="0 0 24 24"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2m0 16H8V7h11z"/></svg>
+          Sayfayı Kopyala
+        </button>
+      </div>
+
+      <footer><span id="telif"></span></footer>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="links.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
