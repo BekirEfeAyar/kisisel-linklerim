@@ -1,6 +1,6 @@
 # Kişisel Linklerim
 
-**Canlı adres:** https://devilmaycrysario.github.io/kisisel-linklerim/
+**Canlı adres:** https://bekirefeayar.github.io/kisisel-linklerim/
 
 Kişisel linklerini ve hesaplarını gösteren tek sayfalık site.
 Kurulum, sunucu, hesap yönetimi — hiçbir şey gerekmiyor.
@@ -98,8 +98,8 @@ sosyal: [
 
 ## İnternete nasıl koyarım?
 
-> Bu site zaten yayında: **https://devilmaycrysario.github.io/kisisel-linklerim/**
-> Depo: https://github.com/DevilMayCrySario/kisisel-linklerim
+> Bu site zaten yayında: **https://bekirefeayar.github.io/kisisel-linklerim/**
+> Depo: https://github.com/BekirEfeAyar/kisisel-linklerim
 >
 > Aşağıdaki adımlar sadece ilk kez kurulurken yapıldı. Sonradan değişiklik yapmak için
 > masaüstündeki klasörde şu iki komut yeterli:
@@ -111,7 +111,7 @@ sosyal: [
 > ```
 >
 > Yükleme yapıldıktan sonra site 1-2 dakika içinde kendiliğinden güncellenir.
-> Elle gündermek de gerekirse: https://github.com/DevilMayCrySario/kisisel-linklerim → Settings → Pages → **Deploy from a branch** → **Save**
+> Elle gündermek de gerekirse: https://github.com/BekirEfeAyar/kisisel-linklerim → Settings → Pages → **Deploy from a branch** → **Save**
 
 ### İlk kurulum (zaten yapıldı, tekrarlamak gerekmiyor)
 
