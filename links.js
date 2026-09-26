@@ -7,7 +7,7 @@ const SITE = {
   // --- Profil bilgileri ---
   ad: "Efe",
   unvan: "Kişisel Linklerim",
-  bio: "Selam; ben Efe, Pollux'un yapımcısı ^^",
+  bio: "Selam; ben Efe, Polluxun yapımcısı ^^",
   avatarUrl: "", // Boş bırakırsan baş harflerden avatar oluşur. (örn: "avatar.jpg")
 
   // --- Ana butonlar (profil kartının altındaki 2 buton) ---
