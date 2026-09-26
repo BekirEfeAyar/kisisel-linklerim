@@ -7,7 +7,7 @@ const SITE = {
   // --- Profil bilgileri ---
   ad: "Efe",
   unvan: "Kişisel Linklerim",
-  bio: "Tüm hesaplarıma, projelerime ve yaptıklarıma ulaşabileceğin tüm bağlantılar burada.",
+  bio: "Selam; ben Efe, Pollux'un yapımcısı ^^",
   avatarUrl: "", // Boş bırakırsan baş harflerden avatar oluşur. (örn: "avatar.jpg")
 
   // --- Ana butonlar (profil kartının altındaki 2 buton) ---
@@ -31,6 +31,13 @@ const SITE = {
       ikon: "instagram",
       vurgu: "pembe",
     },
+    {
+      baslik: "GitHub",
+      aciklama: "@BekirEfeAyar · Kodlarım ve projelerim",
+      url: "https://github.com/BekirEfeAyar",
+      ikon: "github",
+      vurgu: "mor",
+    },
 
     /* Yeni link eklemek için yukarıdaki bloğu kopyala yapıştır:
     {
@@ -47,6 +54,7 @@ const SITE = {
   // (istemiyorsan boş bırak: sosyal: [])
   sosyal: [
     { url: "https://www.instagram.com/efebekir_slm/", ikon: "instagram" },
+    { url: "https://github.com/BekirEfeAyar", ikon: "github" },
   ],
 
   // --- Site altı bilgi ---
