@@ -1,5 +1,7 @@
 # Kişisel Linklerim
 
+**Canlı adres:** https://devilmaycrysario.github.io/kisisel-linklerim/
+
 Kişisel linklerini ve hesaplarını gösteren tek sayfalık site.
 Kurulum, sunucu, hesap yönetimi — hiçbir şey gerekmiyor.
 
@@ -94,7 +96,24 @@ sosyal: [
 
 İstemiyorsan boş bırak: `sosyal: []`
 
-## İnternete nasıl koyarım? (ücretsiz)
+## İnternete nasıl koyarım?
+
+> Bu site zaten yayında: **https://devilmaycrysario.github.io/kisisel-linklerim/**
+> Depo: https://github.com/DevilMayCrySario/kisisel-linklerim
+>
+> Aşağıdaki adımlar sadece ilk kez kurulurken yapıldı. Sonradan değişiklik yapmak için
+> masaüstündeki klasörde şu iki komut yeterli:
+>
+> ```bash
+> git add .
+> git commit -m "degisiklik"
+> git push
+> ```
+>
+> Yükleme yapıldıktan sonra site 1-2 dakika içinde kendiliğinden güncellenir.
+> Elle gündermek de gerekirse: https://github.com/DevilMayCrySario/kisisel-linklerim → Settings → Pages → **Deploy from a branch** → **Save**
+
+### İlk kurulum (zaten yapıldı, tekrarlamak gerekmiyor)
 
 ### 1. GitHub Pages
 
